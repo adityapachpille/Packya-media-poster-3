@@ -14,7 +14,7 @@ export default function CanvasEditor() {
   const [scale, setScale] = useState(1);
 
   const [position, setPosition] = useState({
-    x: 36,
+    x: 34,
     y: canvasSize / 2 - imageSize / 2 - 10,
   });
 
@@ -115,7 +115,7 @@ export default function CanvasEditor() {
     <>
       {/* Top bar */}
       <div className="topBarWrapper">
-        <h2 className="title">📲🗳️ LokNetaa Poster Editor Software 👥📸✨</h2>
+        <h2 className="title">📲🗳️ LokNetaa Poster Editor Softwaree 👥📸✨</h2>
         <div className="topBar">
           <button className="button" onClick={() => fileRef.current?.click()}>
             📤 Import Photo

@@ -10,12 +10,12 @@ export default function CanvasEditor() {
 
   const canvasSize = 600;
   // ✅ Equal width & height for perfect circle
-  const [imageSize, setImageSize] = useState(216);
+  const [imageSize, setImageSize] = useState(214);
   const [scale, setScale] = useState(1);
 
   const [position, setPosition] = useState({
     x: 40,
-    y: canvasSize / 2 - imageSize / 2 + 20,
+    y: canvasSize / 2 - imageSize / 2 + 10,
   });
 
   const handleUpload = (e) => {
